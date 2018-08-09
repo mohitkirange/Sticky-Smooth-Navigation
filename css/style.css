@@ -1,0 +1,151 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: -webkit-min-content 1fr;
+    grid-template-columns: min-content 1fr;
+    font-family: system-ui, sans-serif;
+}
+
+p {
+
+    color: white;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+nav {
+    white-space: nowrap;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+@media (min-height: 300px) {
+    nav ul {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+}
+
+nav ul li a {
+    display: block;
+    padding: 1.45rem 1.4rem;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding-bottom: 0rem;
+}
+
+section {
+    padding: 17rem;
+    margin: 0 0 0rem 0;
+}
+
+#section-1 {
+    background-color: #051e3e;
+}
+
+#section-2 {
+    background-color: #251e3e;
+}
+
+#section-3 {
+    background-color: #451e3e;
+}
+
+#section-4 {
+    background-color: #651e3e;
+}
+
+#section-5 {
+    background-color: #851e3e;
+}
+
+#section-6 {
+    background-color: #651e3e;
+}
+
+#section-7 {
+    background-color: #451e3e;
+}
+
+#section-8 {
+    background-color: #251e3e;
+}
+
+#section-9 {
+    background-color: #051e3e;
+}
+
+#section-9 {
+    background-color: #051e3e;
+}
+
+#section-10 {
+    background-color: #08182e;
+}
+
+#a1 {
+    background-color: #051e3e;
+}
+
+#a2 {
+    background-color: #251e3e;
+}
+
+#a3 {
+    background-color: #451e3e;
+}
+
+#a4 {
+    background-color: #651e3e;
+}
+
+#a5 {
+    background-color: #851e3e;
+}
+
+#a6 {
+    background-color: #651e3e;
+}
+
+#a7 {
+    background-color: #451e3e;
+}
+
+#a8 {
+    background-color: #251e3e;
+}
+
+#a9 {
+    background-color: #051e3e;
+}
+
+#a10 {
+    background-color: #08182e;
+}
+
+footer {
+    grid-column: 1 / 3;
+    background: #adb7bc;
+    padding: 1rem 1rem;
+    color: white;
+}
